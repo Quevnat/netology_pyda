@@ -46,6 +46,8 @@ if month.lower() == 'ноябрь' and day >= 22 and day <= 31 or month.lower() 
     print ('Ваш знак зодиака Стрелец')
 if month.lower() == 'декабрь' and day >= 22 and day <= 31 or month.lower() == 'январь' and day >= 1 and day <= 19:
     print ('Ваш знак зодиака Козерог')    
-    
-else:
-    print('Введите правильную дату рождения')
+if month.lower() == 'январь' and day >= 20 and day <= 31 or month.lower() == 'февраль' and day >= 1 and day <= 18:
+    print ('Ваш знак зодиака Водолей')
+if month.lower() == 'февраль' and day >= 20 and day <= 29 or month.lower() == 'март' and day >= 1 and day <= 20:
+    print ('Ваш знак зодиака Рыбы')    
+else: print('Введите правильную дату рождения')
