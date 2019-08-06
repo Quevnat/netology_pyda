@@ -26,5 +26,7 @@ print('Введите месяц рождения')
 month = input()
 print('Введите день рождения')
 day = int(input())
-if month.lower() == 'март' and day >= 21:
+if month.lower() == 'март' and day >= 21 and day <= 31  or month.lower() == 'апрель' and day >= 1 and day <= 19:
     print ('Овен')
+else:
+    print('Введите правильную дату рождения')
