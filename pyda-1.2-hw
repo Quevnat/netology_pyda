@@ -17,3 +17,21 @@ for i in geo_logs:
     for j in i.values():
         if 'Россия' in j:
             print(j)
+
+
+# Задание № 2
+
+ids = {'user1': [213, 213, 213, 15, 213], 
+       'user2': [54, 54, 119, 119, 119], 
+       'user3': [213, 98, 98, 35]}
+       
+uniq = []
+
+for i in ids.values():
+    for j in i:
+        if j not in uniq:
+            uniq.append(j)
+        else:
+            continue
+print(uniq)
+    
